@@ -1,0 +1,148 @@
+[
+    {
+        "id": "123",
+        "title": "Vodafone: A Deep Dive into the UK Telecom Giant",
+        "content": "Analysis of Vodafone's recent performance, market position in the UK, and future outlook.",
+        "tags": [
+            {"type": "instrument", "value": "VOD.L", "threshold": 0.8},
+            {"type": "country", "value": "UK", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "456",
+        "title": "Apple vs. Microsoft: A Head-to-Head Comparison",
+        "content": "Compares the two tech giants in terms of products, services, financials, and growth potential.",
+        "tags": [
+            {"type": "instrument", "value": "AAPL", "threshold": 0.7},
+            {"type": "instrument", "value": "MSFT", "threshold": 0.7},
+            {"type": "country", "value": "USA", "threshold": 0.5}
+        ]
+    },
+    {
+        "id": "789",
+        "title": "The Future of Technology: AI, Quantum Computing, and Beyond",
+        "content": "Explores emerging technologies that will shape the future of various sectors, including finance and renewable energy.",
+        "tags": [
+            {"type": "sector", "value": "Technology", "threshold": 0.8},
+            {"type": "sector", "value": "Finance", "threshold": 0.3}
+        ]
+    },
+    {
+        "id": "1011",
+        "title": "Solar Energy Breakthroughs: How They're Transforming the Energy Landscape",
+        "content": "Covers recent advances in solar technology and their impact on the global energy market, with a focus on BP's (BP.L) investments in renewables.",
+        "tags": [
+            {"type": "sector", "value": "Renewable Energy", "threshold": 0.8},
+            {"type": "instrument", "value": "BP.L", "threshold": 0.5}
+        ]
+    },
+    {
+        "id": "1213",
+        "title": "Tesla in Canada: Electric Vehicle Adoption and Market Trends",
+        "content": "Examines Tesla's performance in the Canadian market, the growth of EVs, and government incentives.",
+        "tags": [
+            {"type": "instrument", "value": "TSLA", "threshold": 0.7},
+            {"type": "country", "value": "Canada", "threshold": 0.6},
+            {"type": "sector", "value": "Automotive", "threshold": 0.6}
+        ]
+    },
+    {
+        "id": "1415",
+        "title": "Bayer: A Leading Player in German Pharmaceuticals",
+        "content": "Provides a company profile of Bayer, its innovative drug pipeline, and the broader German pharmaceutical industry.",
+        "tags": [
+            {"type": "instrument", "value": "BAYN.DE", "threshold": 0.8},
+            {"type": "country", "value": "Germany", "threshold": 0.5},
+            {"type": "sector", "value": "Pharmaceuticals", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "1617",
+        "title": "Amazon's Global E-commerce Dominance: A Case Study",
+        "content": "Analyzes Amazon's strategies, market share, and the impact of e-commerce on retail worldwide.",
+        "tags": [
+            {"type": "instrument", "value": "AMZN", "threshold": 0.8},
+            {"type": "sector", "value": "E-commerce", "threshold": 0.8},
+            {"type": "sector", "value": "Retail", "threshold": 0.4}
+        ]
+    },
+    {
+        "id": "1819",
+        "title": "Meta: The Power of Social Media in Advertising",
+        "content": "Discusses the evolution of Facebook (Meta), its advertising platforms, and the role of social media in marketing.",
+        "tags": [
+            {"type": "instrument", "value": "FB", "threshold": 0.7},
+            {"type": "sector", "value": "Social Media", "threshold": 0.8},
+            {"type": "sector", "value": "Advertising", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "2021",
+        "title": "Johnson & Johnson: Healthcare Conglomerate with a Consumer Focus",
+        "content": "Profiles J&J's diverse businesses, from pharmaceuticals to consumer goods, and its impact on the healthcare industry.",
+        "tags": [
+            {"type": "instrument", "value": "JNJ", "threshold": 0.8},
+            {"type": "sector", "value": "Healthcare", "threshold": 0.7},
+            {"type": "sector", "value": "Consumer Goods", "threshold": 0.6}
+        ]
+    },
+    {
+        "id": "2223",
+        "title": "Alibaba: The Chinese E-commerce Giant's Rise and Challenges",
+        "content": "An overview of Alibaba's growth, its position in the Chinese market, and the regulatory landscape it faces.",
+        "tags": [
+            {"type": "instrument", "value": "BABA", "threshold": 0.8},
+            {"type": "country", "value": "China", "threshold": 0.7},
+            {"type": "sector", "value": "E-commerce", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "2425",
+        "title": "Netflix: The Streaming Wars and the Future of Entertainment",
+        "content": "Examines Netflix's dominance, the competition in the streaming industry, and what's next for entertainment.",
+        "tags": [
+            {"type": "instrument", "value": "NFLX", "threshold": 0.8},
+            {"type": "sector", "value": "Entertainment", "threshold": 0.8},
+            {"type": "sector", "value": "Streaming", "threshold": 0.8}
+        ]
+    },
+    {
+        "id": "2627",
+        "title": "NVIDIA: Leading the Charge in Semiconductors and AI",
+        "content": "Delves into NVIDIA's advancements in chip technology, its role in artificial intelligence, and its market position.",
+        "tags": [
+            {"type": "instrument", "value": "NVDA", "threshold": 0.8},
+            {"type": "sector", "value": "Technology", "threshold": 0.7},
+            {"type": "sector", "value": "Semiconductors", "threshold": 0.8},
+            {"type": "sector", "value": "AI", "threshold": 0.6}
+        ]
+    },
+    {
+        "id": "2829",
+        "title": "UK Tech Scene: Startups, Innovation, and Government Support",
+        "content": "Explores the thriving technology sector in the UK, highlighting promising startups and government initiatives.",
+        "tags": [
+            {"type": "country", "value": "UK", "threshold": 0.8},
+            {"type": "sector", "value": "Technology", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "3031",
+        "title": "Investing in US Retail: Trends, Challenges, and Opportunities",
+        "content": "Analyzes the evolving retail landscape in the US, the rise of e-commerce, and potential investment areas.",
+        "tags": [
+            {"type": "country", "value": "USA", "threshold": 0.7},
+            {"type": "sector", "value": "Retail", "threshold": 0.8}
+        ]
+    },
+    {
+        "id": "3233",
+        "title": "The Future of Energy: Renewable Sources and Global Trends",
+        "content": "Discusses the transition to renewable energy sources worldwide, the challenges faced, and the potential for growth.",
+        "tags": [
+            {"type": "sector", "value": "Renewable Energy", "threshold": 0.8},
+            {"type": "sector", "value": "Energy", "threshold": 0.7}
+        ]
+    }
+]
+

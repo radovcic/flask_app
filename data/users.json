@@ -1,0 +1,94 @@
+[
+    {
+        "name": "John Dow",
+        "interests": [
+            {"type": "instrument", "value": "VOD.L", "threshold": 0.5},
+            {"type": "country", "value": "UK", "threshold": 0.24},
+            {"type": "sector", "value": "Renewable Energy", "threshold": 0.4},
+            {"type": "instrument", "value": "BP.L", "threshold": 0.3}
+        ]
+    },
+    {
+        "name": "Jane Smith",
+        "interests": [
+            {"type": "instrument", "value": "AAPL", "threshold": 0.3},
+            {"type": "country", "value": "USA", "threshold": 0.4},
+            {"type": "sector", "value": "Finance", "threshold": 0.5},
+            {"type": "instrument", "value": "MSFT", "threshold": 0.4},
+            {"type": "sector", "value": "Retail", "threshold": 0.35}
+        ]
+    },
+    {
+        "name": "Alice Johnson",
+        "interests": [
+            {"type": "instrument", "value": "TSLA", "threshold": 0.99},
+            {"type": "country", "value": "Canada", "threshold": 0.99},
+            {"type": "sector", "value": "Energy", "threshold": 0.99},
+            {"type": "instrument", "value": "ENB.TO", "threshold": 0.99},
+            {"type": "sector", "value": "Automotive", "threshold": 0.99}
+        ]
+    },
+    {
+        "name": "Bob Brown",
+        "interests": [
+            {"type": "instrument", "value": "GOOGL", "threshold": 0.5},
+            {"type": "country", "value": "Germany", "threshold": 0.35},
+            {"type": "sector", "value": "Healthcare", "threshold": 0.55},
+            {"type": "instrument", "value": "BAYN.DE", "threshold": 0.4},
+            {"type": "sector", "value": "Pharmaceuticals", "threshold": 0.45}
+        ]
+    },
+    {
+        "name": "Eva Green",
+        "interests": [
+            {"type": "instrument", "value": "AMZN", "threshold": 0.5},
+            {"type": "country", "value": "USA", "threshold": 0.3},
+            {"type": "sector", "value": "E-commerce", "threshold": 0.6},
+            {"type": "sector", "value": "Cloud Computing", "threshold": 0.55}
+        ]
+    },
+    {
+        "name": "Frank Davis",
+        "interests": [
+            {"type": "instrument", "value": "FB", "threshold": 0.45},
+            {"type": "country", "value": "USA", "threshold": 0.35},
+            {"type": "sector", "value": "Social Media", "threshold": 0.6},
+            {"type": "sector", "value": "Advertising", "threshold": 0.5}
+        ]
+    },
+    {
+        "name": "Grace Lee",
+        "interests": [
+            {"type": "instrument", "value": "JNJ", "threshold": 0.5},
+            {"type": "country", "value": "USA", "threshold": 0.4},
+            {"type": "sector", "value": "Healthcare", "threshold": 0.55},
+            {"type": "sector", "value": "Consumer Goods", "threshold": 0.4}
+        ]
+    },
+    {
+        "name": "Henry Chen",
+        "interests": [
+            {"type": "instrument", "value": "BABA", "threshold": 0.6},
+            {"type": "country", "value": "China", "threshold": 0.5},
+            {"type": "sector", "value": "E-commerce", "threshold": 0.55},
+            {"type": "sector", "value": "Technology", "threshold": 0.45}
+        ]
+    },
+    {
+        "name": "Isabella Rodriguez",
+        "interests": [
+            {"type": "instrument", "value": "NFLX", "threshold": 0.55},
+            {"type": "country", "value": "USA", "threshold": 0.3},
+            {"type": "sector", "value": "Entertainment", "threshold": 0.65},
+            {"type": "sector", "value": "Streaming", "threshold": 0.6}
+        ]
+    },
+    {
+        "name": "Jack Wilson",
+        "interests": [
+            {"type": "instrument", "value": "NVDA", "threshold": 0.6},
+            {"type": "sector", "value": "Technology", "threshold": 0.65},
+            {"type": "sector", "value": "Semiconductors", "threshold": 0.55}
+        ]
+    }
+]

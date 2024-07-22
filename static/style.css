@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.user {
+    border: 3px solid #ddd;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    color: #666;
+}

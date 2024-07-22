@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relevant Content App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function submitForm() {
+            document.getElementById('nameForm').submit();
+        }
+    </script>
+</head>
+<body>
+    <h1 style="margin-bottom:1cm;">Relevant Content App</h1>
+    <p>Please select a username to see the relevant content.</p>
+    <form id="nameForm" method="POST">
+        <label for="name">Username:</label>
+        <select name="name" id="name" onchange="submitForm()">
+            <option value="">--Select username--</option>
+            {% for user in usernames %}
+                <option value="{{ user }}">{{ user }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    {% if selected_user %}
+        <div class="user">
+            <h2>Content for {{ selected_user }}</h2>
+            <ul>
+                {% for content in relevant_content %}
+                    <li>
+                        <h3>{{ content['title'] }}</h3>
+                        <p>Relevant tags: {{ ', '.join(content.relevant_tags) }}</p>
+                        <p>{{ content['content'] }}</p>
+                    </li>
+                {% else %}
+                    <p>No relevant content found.</p>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+</body>
+</html>
+
